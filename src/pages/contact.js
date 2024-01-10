@@ -6,7 +6,7 @@ const ContactPage = () => {
   return (
     <Layout>
       <Head title="Contact" />
-      <h1>Contact Page</h1>
+      <h2>Contact me.</h2>
       <p>
         Contact me through my Linkedin link{" "}
         <a

@@ -22,19 +22,20 @@ const BlogPage = () => {
   return (
     <Layout>
       <Head title="Blog" />
-      <h1>Blog</h1>
+      <h2>Blog.</h2>
       <ol className={blogStyles.posts}>
         {data.allContentfulBlogPost.edges.map((edge) => {
           return (
             <li className={blogStyles.post}>
               <Link to={`/blog/${edge.node.slug}`}>
-                <h2>{edge.node.title}</h2>
-                <p>{edge.node.publishedDate}</p>
+                <h3>{edge.node.title}</h3>
+                <p>Published on {edge.node.publishedDate}</p>
               </Link>
             </li>
           )
         })}
       </ol>
+      <hr />
     </Layout>
   );
 };

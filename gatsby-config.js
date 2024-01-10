@@ -5,7 +5,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: "Engamo personal blog!",
+    title: "Engamo blog!",
     author: "Mustapha Anthonio",
   },
   plugins: [
@@ -14,6 +14,19 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Open Sans",
+              variants: ["400", "700"],
+            },
+          ],
+        },
+      },
+    },
     {
       resolve: "gatsby-source-contentful",
       options: {

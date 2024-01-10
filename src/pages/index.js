@@ -6,8 +6,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <Head title="Home" />
-      <h1>Hello.</h1>
-      <h2>I'm Engamo, a fullstack developer living in Lagos, Nigeria</h2>
+      <h2>Hello.</h2>
+      <p>I'm Engamo, a fullstack developer living in Lagos, Nigeria. I built this personal blog with Gatsby, React.js and GraphQL.</p>
       <p>Need a developer? <Link to="/contact">Contact me.</Link></p>
     </Layout>
   );
