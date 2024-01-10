@@ -7,7 +7,7 @@ const IndexPage = () => {
     <Layout>
       <Head title="Home" />
       <h2>Hello.</h2>
-      <p>I'm Engamo, a full-stack developer living in Lagos, Nigeria. I built this personal blog with Gatsby, React.js, and GraphQL.</p>
+      <p>I'm Engamo, a full-stack developer living in Lagos, Nigeria. I built this personal blog with Gatsby, Contentful CMS, React.js, and GraphQL.</p>
     </Layout>
   );
 };
